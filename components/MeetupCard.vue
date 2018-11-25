@@ -7,8 +7,8 @@
           <h3 class="meetup-card__size">{{ sizeMembers }} </h3>
       </div>
     </div>
-    <p v-html="description"></p>
-    <div class="meetup-card__next-meetup">
+    <p class="meetup-card__description" v-html="description"></p>
+    <div class=" text-center meetup-card__next-meetup">
       <p>{{ nextMeetup }}</p>
     </div>
   </div>
@@ -61,16 +61,15 @@ export default {
 <style>
 
 .meetup-card {
-  padding: 25px;
   margin: 15px;
   transition: 1s;  
   border: 1px solid lightgrey;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .meetup-card__header {
   display: table;
-  padding:10px;
+  padding:25px;
 }
 
 .meetup-card__logo {
@@ -91,10 +90,18 @@ export default {
   color:gray;
 }
 
+.meetup-card__description {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .meetup-card__next-meetup {
-  font-size: .85rem;
+  height:50px;
+  line-height: 50px;
+  font-size: 1rem;
   text-transform: uppercase;
-  color: #3b5998;
+  color:white;
+  background-color: #3b5998;
 }
 
 </style>
