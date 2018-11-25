@@ -1,5 +1,5 @@
 export default {
-	meetups: [
+	groups: [
 		{
 			title: "Cloud Austin",
 			size: 2500,

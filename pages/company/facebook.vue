@@ -9,7 +9,7 @@ export default {
 
   data: function() {
   	return {
-  		meetups: meetups
+  		meetups: meetups.groups
   	};
   }
 }
