@@ -1,7 +1,7 @@
 <template>
   <div class="text-left meetup-card">
     <div class="meetup-card__header">
-      <div class="meetup-card__logo"></div>
+      <img :src="logo" class="meetup-card__logo"/>
       <div class="meetup-card__header_text">
           <h2 class="meetup-card__title">{{ title }}</h2>
           <h3 class="meetup-card__size">{{ sizeMembers }} </h3>
@@ -35,6 +35,11 @@ export default {
       type: Number
     },
 
+    logo: {
+      default: "",
+      type: String
+    },
+
     members: {
       default: "members",
       type: String
@@ -57,13 +62,10 @@ export default {
 
 .meetup-card {
   padding: 25px;
+  margin: 15px;
   transition: 1s;  
   border: 1px solid lightgrey;
-  cursor: pointer;
-}
-
-.meetup-card:hover {
-  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.3);;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
 }
 
 .meetup-card__header {
@@ -72,10 +74,9 @@ export default {
 }
 
 .meetup-card__logo {
-  height: 75px;
+  height: auto;
   width: 75px;
   margin-right: 10px;
-  background-image: url("/images/react-logo.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -86,7 +87,7 @@ export default {
 }
 
 .meetup-card__size {
-  font-size:1rem;
+  font-size: 1rem;
   color:gray;
 }
 
