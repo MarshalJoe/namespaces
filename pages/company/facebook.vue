@@ -1,10 +1,12 @@
 <script>
 import MeetupCard from '~/components/MeetupCard.vue';
+import CompanyInquiry from '~/components/CompanyInquiry.vue';
 import meetups from '~/content/facebook.js';
 
 export default {
   components: {
-    MeetupCard
+    MeetupCard,
+    CompanyInquiry
   },
 
   data: function() {
@@ -23,6 +25,9 @@ export default {
     	</div>
     	<div class="company__body">
     		<MeetupCard v-for="(meetup, key) in meetups" v-bind="meetup" :key="key" />
+    	</div>
+    	<div class="company__inquiry">
+    		<CompanyInquiry company-name="facebook" />	
     	</div>
     </div>
   </section>
