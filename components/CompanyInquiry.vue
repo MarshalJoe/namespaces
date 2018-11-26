@@ -49,6 +49,16 @@ export default {
       companyName: {
           default: "unknown",
           type: String
+      },
+
+      infoText: {
+          default: null,
+          type: String
+      },
+
+      infoList: {
+        default: null,
+        type: Array
       }
   }
 }
@@ -61,15 +71,23 @@ export default {
       <div class="col-12">
         <transition name="fade" v-on:after-leave="submitFormTransitionLeave">
           <div class="contact-form__form-step" v-if="formStepFormShow">
-            <form class="contact-form__step contact-form__step-form">
-              <div class="form-group text-left">
-                <label for="contact-form__email">Email Address</label>
-                <input id="contact-form__email" type="email" name="email" class="form-control" v-model="formEmail" placeholder="Email"/>
-              </div>
-              <div>
-                <button @click.prevent="submitForm" type="submit" class="btn btn-primary px-5 w-100" id="submit-form">Submit</button>
-              </div>
-            </form>
+            <div class="contact-form__form-wrapper py-5 px-5">
+                <div class="contact-form__info text-left">
+                    <p v-if="infoText">{{ infoText }}</p>
+                    <ul v-if="infoList">
+                        <li v-for="item in infoList">{{ item }}</li>
+                    </ul>
+                </div>
+                <form class="contact-form__step contact-form__step-form m-auto">
+                  <div class="form-group text-left">
+                    <label for="contact-form__email">Email Address</label>
+                    <input id="contact-form__email" type="email" name="email" class="form-control" v-model="formEmail" placeholder="Email"/>
+                  </div>
+                  <div>
+                    <button @click.prevent="submitForm" type="submit" class="btn btn-primary px-5 w-100" id="submit-form">Submit</button>
+                  </div>
+                </form>
+            </div>
           </div>
         </transition>
         <div class="contact-form__step contact-form__step-submitted" v-if="formStepSubmittedShow">
@@ -84,6 +102,13 @@ export default {
 .contact-form__step {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.contact-form__form-wrapper {
+  margin: 15px;
+  transition: 1s;
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .contact-form__header {
