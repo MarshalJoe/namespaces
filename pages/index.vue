@@ -1,10 +1,12 @@
 <script>
+import Splash from '~/components/Splash.vue';
 import JobCard from '~/components/JobCard.vue';
 import jobs from '~/content/jobs.js';
 
 export default {
     components: {
-        JobCard,
+        Splash,
+        JobCard
     },
 
     data: function() {
@@ -23,10 +25,7 @@ export default {
 <template>
     <section class="container">
         <div>
-            <div class="company__hero">
-                <h1>Junior Dev Jobs</h1>
-                <h2>Find Your First Dev Job</h2>
-            </div>
+            <Splash/>
             <div class="company__body">
                 <JobCard v-for="(job, index) in jobs" v-bind="job" :key="index" @click.native="toggleCardSelected($event, index)" />
             </div>

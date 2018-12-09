@@ -70,7 +70,7 @@ export default {
 
 <style lang="scss">
 	.job-card {
-		margin:25px;
+		margin:25px 0 25px 0;
 	}
 
 </style>
