@@ -1,6 +1,7 @@
 export default {
 	groups: [
 		{
+			jobid: "908ya87had08f7hasd08f7nadsf",
 			title: "Junior Developer",
 			company: "Penguin Random House",
 			type: "Full-time",
@@ -60,6 +61,7 @@ export default {
     		link: "https://jobsearch.createyourowncareer.com/PRH_US/job/New-York-Junior-Developer-NY-10019/498636501/?feedId=179501"
 		},
 		{
+			jobid:"9080980980a9u0dfnsdunfsdfjnskdfjn",
 			title: "Junior Front-End Developer",
 			company: "Inverse Paradox",
 			type: "Full-time",
@@ -105,6 +107,7 @@ export default {
     		link: "https://www.indeed.com/viewjob?jk=2a4ce1c7ae519eb1&q=junior+front+end+developer&tk=1cuaa1vp3aeov802&from=web&vjs=3"
 		},
 		{
+			jobid: "8098098ljnsdfomspdo8fmsdofmsdofi",
 			title: "Junior Dev Ops Engineer",
 			company: "Renaissance",
 			type: "Full-time",
@@ -151,6 +154,99 @@ export default {
     		`,
     		link: "https://jobs.smartrecruiters.com/Renaissance/743999679875787-junior-dev-ops-engineer?ccuid=16904185301"
 		},
+		{
+			jobid:"098709as7hda0snda0sdna0s9d8asd",
+			title: "Entry-level DevOps Engineer",
+			company: "IBM",
+			type: "Full-time",
+			timestamp: "December 9th, 2018",
+			location: "multiple cities",
+			description: `
+			<p>At IBM we have an amazing opportunity to transform the world with cognitive technology. By using the vast amounts of information available today to identify new patterns and make new discoveries, we are helping cities become smarter, hospitals transform patient care, financial institutions minimize risk, and pharmaceuticals find cures for rare diseases. Join the forward-thinking teams at IBM solving some of the world’s most complex problems – there is no better place to grow your career!</p>
+			<p>Entry Level DevOps Developers:</p>
+			<ul>
+				<li>Work in Agile, collaborative environment to build, deploy, configure, and maintain systems, which may include software installations, updates, and core services.</li>
+				<li>Work with development teams to enable a continuous integration environment that sustains high productivity levels and emphasizes defect prevention techniques.</li>
+				<li>Automate and optimize processes, using tools like Jenkins, Maven, Ant, Gradle, Chef, Puppet, Docker, and UrbanCode.</li>
+				<li>Design and implement tools for automated deployment and monitoring of multiple environments.</li>
+				<li>Troubleshoot and resolve issues in development, test and production instances.</li>
+				<li>Are great at solving problems; debugging; and designing & implementing solutions to complex technical problems.</li>
+				<li>Are familiar with operating systems such as Linux, Windows, iOS and Android.</li>
+				<li>Have basic understanding of programming/scripting in a language such as Java, Bash, Python, or Ruby.</li>
+				<li>Have an interest in, understanding of, or experience with Design Thinking Methodology.</li>
+				<li>Have an interest in, understanding of, or experience with Agile Development Methodology.</li>
+			</ul>
+			<p>What You’ll Do:</p>
+			<ul>
+				<li>You’ll work in an Agile, collaborative environment to build, deploy, configure, and maintain systems, which may include software installations, updates, and core services.</li>
+				<li>You’ll pair with development teams to enable a continuous integration environment that sustains high productivity levels and emphasizes defect prevention techniques.</li>
+				<li>You’ll automate and optimize processes, using tools like Jenkins, Maven, Ant, Gradle, Chef, Puppet, Docker, and UrbanCode.</li>
+				<li>You’ll design and implement tools for automated deployment and monitoring of multiple environments.</li>
+				<li>You’ll troubleshoot and resolve issues in development, test and production instances.</li>
+			</ul>
 
+			<p>Who You Are:</p>
+			
+			<ul>
+			<li>You are highly motivated and have a passion for ensuring scalable and highly-available products.</li>
+			<li>You have very strong verbal and written communication skills.</li>
+			<li>You are great at solving problems; debugging; and designing & implementing solutions to complex technical problems.</li>
+			<li>You are familiar with operating systems such as Linux, Windows, iOS and Android.</li>
+			<li>You have a basic understanding of programming/scripting in a language such as Java, Bash, Python, or Ruby.</li>
+			</ul>
+
+			<p>Key Tech Skills: Java, Jenkins, Maven, Ant, Gradle, Chef, Puppet, Docker, UrbanCode, Bash, Python, or Ruby</p>
+
+			<p>Required Technical and Professional Expertise</p>
+
+			<p>Must have basic knowledge in one of the following technology areas : Java, Jenkins, Maven, Ant, Gradle, Chef, Puppet, Docker, UrbanCode, Bash, Python, or Ruby</p>
+    		`,
+    		link: "https://www.applytracking.com/tp/rj6-gFFk_I-K"
+		},
+		{
+			jobid:"a8sj09as8dm098samd9a8smda98smd",
+			title: "Programmer",
+			company: "Revature",
+			type: "Full-time",
+			timestamp: "December 9th, 2018",
+			location: "Austin, TX",
+			description: `
+			<p>Revature is the fastest growing employer of emerging technology talent in the US and we are currently looking to hire over 100 new Software Engineers.</p>
+			<p>Our Software Engineers design, analyze and build next-gen software systems, including business applications, games, computer applications, middleware, and network control systems across a variety of industries, including finance, insurance, retail, healthcare and government.</p>
+			<p>Revature has been featured in the Wall Street Journal, Money, Time, on MSN, and was recently named as one of the 8 Cool Companies to Apply to in 2018 With Awesome Benefits by Glassdoor.</p>
+			<p>Join us and be part of the next generation of Software Engineers. Interviews are starting now!</p>
+			<p>What We Are Looking For:</p>
+
+			<ul>
+				<li>BA/BS in Computer Science, IT, Engineering, Mathematics or related field</li>
+				<li>0-3 years experience</li>
+				<li>Excellent problem solver</li>
+				<li>Solid understanding of Object Oriented Programming</li>
+				<li>Outstanding verbal and written communication skills</li>
+				<li>Exposure to one of the following: Java, Javascript, C++, CSS</li>
+				<li>Solid foundational knowledge of SQL</li>
+				<li>Willing to relocate anywhere in the US</li>
+				<li>Must be authorized to work in the US on a permanent basis - ability to secure US government security clearance if needed</li>
+				<li>Ability to relocate anywhere in the US</li>
+				<li>Revature is not currently sponsoring work visas or transfers at this time.</li>
+			</ul>
+
+			<p>What We Offer:</p>
+
+			<ul>
+				<li>Competitive Salary</li>
+				<li>Relocation Assistance</li>
+				<li>Corporate Housing</li>
+				<li>Health, Vision and Dental Insurance</li>
+				<li>Paid Time Off</li>
+				<li>Enterprise level development training</li>
+				<li>Life Insurance</li>
+				<li>401K</li>
+				<li>Mentoring and on-going support throughout your entire Revature career</li>
+				<li>Experience with one of the world's most largest and most reputable companies in the US</li>
+			</ul>
+    		`,
+    		link: "https://revature.com/jobs/Programmer-Austin-Texas_100518/?source=appcast-exchange&Austin&TX&Junior%20Software%20Developer"
+		},
 	]
 }

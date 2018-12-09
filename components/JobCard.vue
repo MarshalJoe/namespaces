@@ -8,8 +8,8 @@
         </div>
         <p class="job-card__description" v-html="description"></p>
         <div class=" text-left job-card__next-meetup">
-            <a href>View Job</a>
-            <a :href="link">Apply Here</a>
+            <a :href="'/jobs/' + jobid">View</a>
+            <a :href="link">Apply</a>
         </div>
     </div>
 </template>
@@ -25,41 +25,46 @@ export default {
     },
 
     props: {
+        jobid: {
+            default: "",
+            type: String
+        },
+
         title: {
             default: "",
             type: String
         },
 
-    type: {
-        default: "",
-        type: String
-    },
+        type: {
+            default: "",
+            type: String
+        },
 
-    link: {
-        default: "members",
-        type: String
-    },
+        link: {
+            default: "members",
+            type: String
+        },
 
-    description: {
-        default: "",
-        type: String
-    },
+        description: {
+            default: "",
+            type: String
+        },
 
-    location: {
-        default: "",
-        type: String
-    },
+        location: {
+            default: "",
+            type: String
+        },
 
-    company: {
-        default: "",
-        type: String
-    },
+        company: {
+            default: "",
+            type: String
+        },
 
-    selected: {
-        default: false,
-        type: Boolean
+        selected: {
+            default: false,
+            type: Boolean
+        }
     }
-  }
 }
 </script>
 
