@@ -108,6 +108,7 @@ export default {
 			title: "Junior Dev Ops Engineer",
 			company: "Renaissance",
 			type: "Full-time",
+			timestamp: "November 29th, 2018",
 			location: "New York, NY",
 			description: `
 			<p>We are looking for additional Dev Ops Engineers to help us ship changes faster and with improved confidence in their quality. Our roadmap includes implementing advanced techniques such as reproducible builds, immutable infrastructure, and blue/green releases to support a cutting edge data analytics and machine learning platform in AWS.</p>

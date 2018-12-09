@@ -1,6 +1,6 @@
 <script>
 import JobCard from '~/components/JobCard.vue';
-import meetups from '~/content/jobs.js';
+import jobs from '~/content/jobs.js';
 
 export default {
     components: {
@@ -9,9 +9,9 @@ export default {
 
     data: function() {
         return {
-            meetups: [
-                ...meetups.groups.map((group) => {
-                    group["selected"] = false;
+            jobs: [
+                ...jobs.groups.map((group) => {
+                    group["description"] = group["description"].replace(/<(?:.|\n)*?>/gm, '').substring(0,250) + "...";
                     return group;
                 })
             ]
@@ -28,7 +28,7 @@ export default {
                 <h2>Find Your First Dev Job</h2>
             </div>
             <div class="company__body">
-                <JobCard v-for="(meetup, index) in meetups" v-bind="meetup" :key="index" @click.native="toggleCardSelected($event, index)" />
+                <JobCard v-for="(job, index) in jobs" v-bind="job" :key="index" @click.native="toggleCardSelected($event, index)" />
             </div>
         </div>
     </section>

@@ -8,6 +8,7 @@
         </div>
         <p class="job-card__description" v-html="description"></p>
         <div class=" text-left job-card__next-meetup">
+            <a href>View Job</a>
             <a :href="link">Apply Here</a>
         </div>
     </div>
