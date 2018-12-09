@@ -23,10 +23,10 @@ export default {
 </script>
 
 <template>
-    <section class="container">
+    <section>
         <div>
             <Splash/>
-            <div class="company__body">
+            <div class="container">
                 <JobCard v-for="(job, index) in jobs" v-bind="job" :key="index" @click.native="toggleCardSelected($event, index)" />
             </div>
         </div>
@@ -34,14 +34,6 @@ export default {
 </template>
 
 <style>
-
-.container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
 .title {
     font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,

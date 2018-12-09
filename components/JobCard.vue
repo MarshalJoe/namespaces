@@ -8,8 +8,8 @@
         </div>
         <p class="job-card__description" v-html="description"></p>
         <div class=" text-left job-card__next-meetup">
-            <a :href="'/jobs/' + jobid">View</a>
-            <a :href="link">Apply</a>
+            <a class="button-clear" :href="'/jobs/' + jobid">View</a>
+            <a class="button-clear" :href="link">Apply</a>
         </div>
     </div>
 </template>
