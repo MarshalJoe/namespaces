@@ -1,6 +1,18 @@
+<script>
+import Footer from '~/components/Footer.vue';
+
+export default {
+    components: {
+        Footer,
+    }
+}
+</script>
+
+
 <template>
   <div>
     <nuxt/>
+    <Footer/>
   </div>
 </template>
 
@@ -28,7 +40,7 @@ html {
   border: 1px solid #36454f;
   color:#36454f;
   border-radius: 3px;
-  padding: 3px;
+  padding: 3px 5px 3px 5px;
 }
 
 .button-clear:hover {

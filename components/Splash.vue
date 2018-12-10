@@ -12,9 +12,9 @@
 		margin:0;
 		padding:0;
 		width:100%;
-		height:250px;
+		height:200px;
 		color:white;
-		background-image: url("/images/splash.jpg");
+		background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.75) ), url("/images/splash.jpg");
 		background-position: center;
   		background-repeat: no-repeat;
   		display:table;
