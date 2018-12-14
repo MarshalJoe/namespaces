@@ -33,8 +33,7 @@ export default {
                     group["selected"] = false;
                     return group;
                 })
-            ],
-            jobid: "default"
+            ]
         };
     },
 
@@ -44,7 +43,7 @@ export default {
 
     mounted() {
         console.log("hello world");
-        console.log(this.$route);
+        console.log(this.params);
     }
 }
 </script>
